@@ -156,7 +156,7 @@ h3 {
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  background: #E8B4B8;
+  background: #8A9E8A;
   color: #FFFFFF;
   padding: 10px 24px;
   border: none;
@@ -166,7 +166,7 @@ h3 {
 }
 
 .btn-book-nav:hover {
-  background: #C4939A;
+  background: #6B826B;
 }
 
 /* Hamburger */
@@ -202,50 +202,48 @@ h3 {
   transform: translateY(-7.5px) rotate(-45deg);
 }
 
-/* Mobile dropdown */
+/* Mobile dropdown — driven by .nav-open on .site-nav */
 .nav-mobile {
-  display: none;
   position: absolute;
   top: 70px;
   left: 0;
   right: 0;
   background: #FFFFFF;
   border-bottom: 1px solid #EDE8E3;
-  padding: 0;
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.4s ease, padding 0.3s ease;
+  transition: max-height 0.35s ease;
   z-index: 99;
 }
 
-.nav-mobile.open {
+/* Open state: toggled via JS adding .nav-open to .site-nav */
+.site-nav.nav-open .nav-mobile {
   max-height: 600px;
-  padding: 24px 0;
 }
 
 .nav-mobile a {
   display: block;
-  padding: 10px 40px;
+  padding: 14px 24px;
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #2C2C2C;
-  border-bottom: 1px solid #F5F0EB;
+  border-bottom: 1px solid #EDE8E3;
   transition: color 0.2s ease, background 0.2s ease;
 }
 
 .nav-mobile a:hover {
-  color: #C4939A;
+  color: #8A9E8A;
   background: #FAF8F6;
 }
 
 .nav-mobile .btn-book-mobile {
   display: block;
-  margin: 20px 40px 4px;
+  margin: 16px 24px 20px;
   padding: 12px 24px;
-  background: #E8B4B8;
+  background: #8A9E8A;
   color: #FFFFFF;
   font-family: 'Jost', sans-serif;
   font-weight: 400;
@@ -258,7 +256,7 @@ h3 {
 }
 
 .nav-mobile .btn-book-mobile:hover {
-  background: #C4939A;
+  background: #6B826B;
   color: #FFFFFF;
 }
 
@@ -346,15 +344,15 @@ h3 {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   background: transparent;
-  color: #2C2C2C;
+  color: #8A9E8A;
   padding: 13px 35px;
-  border: 1px solid #2C2C2C;
+  border: 1px solid #8A9E8A;
   cursor: pointer;
   transition: background 0.25s ease, color 0.25s ease;
 }
 
 .btn-ghost:hover {
-  background: #2C2C2C;
+  background: #8A9E8A;
   color: #FFFFFF;
 }
 
@@ -1633,4 +1631,449 @@ h3 {
   .assessment-section {
     padding: 60px 20px;
   }
+}
+
+/* ============================================================
+   SAGE GREEN ACCENT — secondary elements only
+   ============================================================ */
+
+/* Sub-page eyebrow labels (not homepage) */
+.subpage-eyebrow {
+  color: #8A9E8A !important;
+}
+
+/* Note boxes on corrective + beauty pages — sage left border */
+.note-box-sage {
+  border-left: 3px solid #8A9E8A;
+  padding: 24px 28px;
+  background: #FFFFFF;
+  margin-bottom: 56px;
+}
+
+.note-box-sage .eyebrow {
+  color: #8A9E8A;
+  margin-bottom: 8px;
+}
+
+.note-box-sage p {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.note-box-sage p:last-child {
+  margin-bottom: 0;
+}
+
+.note-box-sage a {
+  color: #8A9E8A;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: letter-spacing 0.3s ease;
+}
+
+.note-box-sage a:hover {
+  letter-spacing: 0.18em;
+}
+
+/* Warning box — linen background, sage left border */
+.warning-box {
+  border-left: 3px solid #8A9E8A;
+  padding: 24px 28px;
+  background: #F5F0EB;
+  margin-bottom: 36px;
+}
+
+.warning-box p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: #5C5C5C;
+  margin-bottom: 12px;
+}
+
+.warning-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer social icons — sage on hover */
+.footer-socials a:hover svg {
+  stroke: #8A9E8A;
+}
+
+.footer-socials a:hover {
+  border-color: #8A9E8A;
+}
+
+/* Sage ghost button variant for sub-pages */
+.btn-sage {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: #8A9E8A;
+  color: #FFFFFF;
+  padding: 14px 36px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.btn-sage:hover {
+  background: #6B826B;
+  color: #FFFFFF;
+}
+
+.btn-sage-outline {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: transparent;
+  color: #8A9E8A;
+  padding: 13px 35px;
+  border: 1px solid #8A9E8A;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.btn-sage-outline:hover {
+  background: #8A9E8A;
+  color: #FFFFFF;
+}
+
+/* ============================================================
+   NAV LOGO IMAGE
+   ============================================================ */
+.nav-logo-img {
+  display: block;
+  height: 52px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   WHATSAPP FLOATING WIDGET
+   ============================================================ */
+.wa-widget {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.wa-tooltip {
+  opacity: 0;
+  pointer-events: none;
+  background: #8A9E8A;
+  color: #FFFFFF;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  padding: 7px 14px;
+  white-space: nowrap;
+  margin-right: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.wa-widget:hover .wa-tooltip {
+  opacity: 1;
+}
+
+.wa-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #8A9E8A;
+  box-shadow: 0 4px 20px rgba(138,158,138,0.45);
+  transition: background 0.3s ease, transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.wa-btn:hover {
+  background: #6B826B;
+  transform: scale(1.08);
+}
+
+.wa-btn svg {
+  width: 28px;
+  height: 28px;
+  fill: #FFFFFF;
+}
+
+@media (max-width: 640px) {
+  .wa-widget {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .wa-btn {
+    width: 52px;
+    height: 52px;
+  }
+
+  .wa-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* ============================================================
+   BIO SPICULES SECTION
+   ============================================================ */
+.bio-spicules-grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 60px;
+  align-items: start;
+}
+
+.bio-spicules-img {
+  height: 420px;
+  overflow: hidden;
+}
+
+.bio-spicules-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bio-spicules-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bio-spicules-content h2 {
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .bio-spicules-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .bio-spicules-img {
+    height: 300px;
+  }
+}
+
+/* ============================================================
+   WAXING WARNING SECTION
+   ============================================================ */
+.waxing-warning-wrap {
+  display: grid;
+  grid-template-columns: 1fr 35%;
+  gap: 48px;
+  align-items: start;
+  margin-bottom: 48px;
+}
+
+.waxing-warning-img {
+  height: 320px;
+  overflow: hidden;
+  max-width: 300px;
+  width: 100%;
+  justify-self: end;
+}
+
+.waxing-warning-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .waxing-warning-wrap {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .waxing-warning-img {
+    max-width: 100%;
+    height: 240px;
+    justify-self: stretch;
+    order: -1;
+  }
+}
+
+/* ============================================================
+   CONTACT PAGE
+   ============================================================ */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.contact-card {
+  background: #FFFFFF;
+  border: 1px solid #EDE8E3;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-card:last-child {
+  margin-bottom: 0;
+}
+
+.contact-card-label {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8A9E8A;
+  margin-bottom: 4px;
+}
+
+.contact-card-value {
+  font-size: 0.95rem;
+  color: #2C2C2C;
+  line-height: 1.7;
+}
+
+.contact-card-value a {
+  color: #2C2C2C;
+  transition: color 0.2s ease;
+}
+
+.contact-card-value a:hover {
+  color: #8A9E8A;
+}
+
+.contact-hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 4px;
+}
+
+.contact-hours-table td {
+  padding: 5px 0;
+  font-size: 0.88rem;
+  color: #5C5C5C;
+}
+
+.contact-hours-table td:last-child {
+  text-align: right;
+}
+
+.contact-social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.contact-social-link {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8A9E8A;
+  border: 1px solid #8A9E8A;
+  padding: 8px 16px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.contact-social-link:hover {
+  background: #8A9E8A;
+  color: #FFFFFF;
+}
+
+.booking-cta-box {
+  background: #FFFFFF;
+  border: 1px solid #EDE8E3;
+  padding: 48px 44px;
+}
+
+.booking-cta-box .eyebrow {
+  margin-bottom: 12px;
+}
+
+.booking-cta-box h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  margin-bottom: 20px;
+}
+
+.booking-cta-box p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.booking-cta-box .booking-note {
+  font-size: 0.82rem;
+  color: #9E9E9E;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.booking-secondary {
+  margin-top: 16px;
+  display: block;
+}
+
+.contact-policy-banner {
+  background: #F5F0EB;
+  border-top: 1px solid #EDE8E3;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-policy-banner p {
+  font-size: 0.9rem;
+  color: #5C5C5C;
+  margin-bottom: 12px;
+}
+
+.contact-policy-banner a {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8A9E8A;
+  transition: letter-spacing 0.3s ease;
+}
+
+.contact-policy-banner a:hover {
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+/* ============================================================
+   ABOUT PAGE — K-BEAUTY / FOUNDER SECTION TWEAKS
+   ============================================================ */
+.about-welcome p {
+  font-size: 1.02rem;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+.about-welcome p:last-child {
+  margin-bottom: 0;
 }
