@@ -6,6 +6,8 @@
   <meta name="description" content="Char's Beauty Room — boutique luxury skin and beauty studio in Altona Meadows, Melbourne. Expert skin treatments, personalised to you. Real results.">
   <title>Char's Beauty Room | Boutique Skin & Beauty Studio | Altona Meadows Melbourne</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/webp" href="images/LOGO.webp">
+  <link rel="apple-touch-icon" href="images/LOGO.webp">
 </head>
 <body>
 
@@ -168,7 +170,7 @@
           </div>
           <div class="service-card-body">
             <h3>Beauty Rituals</h3>
-            <p>Lash lifts, tinting, waxing and makeup for the finishing touch.</p>
+            <p>Tinting, waxing and makeup for the finishing touch.</p>
             <a href="beauty-rituals.html" class="link-arrow">Explore &rarr;</a>
           </div>
         </article>
@@ -254,6 +256,74 @@
       </div>
     </div>
   </section>
+
+  <hr class="section-divider">
+
+  <!-- ABOUT ME -->
+  <section class="section section-linen">
+    <div class="section-inner">
+      <div class="two-col two-col-reverse">
+        <div class="col-content reveal">
+          <span class="eyebrow">About the Founder</span>
+          <h2>20 Years of Dedicated Expertise</h2>
+          <p>With over 20 years of professional experience, I'm a dedicated skin and beauty therapist known for my meticulous attention to detail and personalised approach. I hold a Diploma in Beauty Therapy, a nationally accredited Laser Safety &amp; Clinical Application certificate, and multiple advanced qualifications including Advanced Skin Diagnosis and SHR Hair Removal expertise.</p>
+          <p>I stay current with the latest techniques, technologies and skincare innovations through ongoing education and advanced training. Guided by my values of quality, integrity and passion, I'm committed to providing results-focused treatments that empower my clients to feel beautiful — inside and out.</p>
+          <div class="credentials-row">
+            <span>Diploma in Beauty Therapy</span>
+            <span class="cred-divider" aria-hidden="true"></span>
+            <span>Laser Safety Certified</span>
+            <span class="cred-divider" aria-hidden="true"></span>
+            <span>20+ Years Experience</span>
+          </div>
+        </div>
+        <div class="col-image reveal">
+          <img src="images/ceo.webp" alt="Charmayne, founder of Char's Beauty Room" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- CONTACT FORM -->
+  <section class="section section-white">
+    <div class="section-inner" style="max-width:860px;">
+      <div class="section-header centered reveal">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Have a Question?</h2>
+        <p style="margin-top:16px;font-size:0.97rem;color:#5C5C5C;">Send us a message and we'll get back to you as soon as possible.</p>
+      </div>
+      <!-- TODO: Replace YOUR_FORM_ID with actual Formspree form ID -->
+      <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name">Name <span class="form-required">*</span></label>
+            <input type="text" id="cf-name" name="name" required placeholder="Your full name">
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email <span class="form-required">*</span></label>
+            <input type="email" id="cf-email" name="email" required placeholder="your@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-phone">Phone <span class="form-optional">(optional)</span></label>
+            <input type="tel" id="cf-phone" name="phone" placeholder="04xx xxx xxx">
+          </div>
+          <div class="form-group form-group-empty"></div>
+        </div>
+        <div class="form-group form-group-full">
+          <label for="cf-message">Message <span class="form-required">*</span></label>
+          <textarea id="cf-message" name="message" required rows="5" placeholder="Tell us what you'd like to know…"></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn-gold">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <hr class="section-divider">
 
   <!-- BOOKING CTA BANNER -->
   <section class="cta-banner">
