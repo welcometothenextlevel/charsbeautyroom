@@ -167,3 +167,19 @@
   }
 
 })();
+
+/* ----------------------------------------------------------
+   ABOUT EXPANDABLE SECTION (Homepage v5)
+---------------------------------------------------------- */
+(function () {
+  var expandBtn     = document.getElementById('about-expand-btn');
+  var expandContent = document.getElementById('about-expand-content');
+  if (expandBtn && expandContent) {
+    expandBtn.addEventListener('click', function () {
+      var isOpen = expandContent.classList.toggle('hp-expand-open');
+      expandContent.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+      expandBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      expandBtn.textContent = isOpen ? 'Show Less −' : 'About Charmayne +';
+    });
+  }
+})();

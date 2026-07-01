@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: #F5F0EB;
-  color: #5C5C5C;
+  color: #3D3D3D;
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 1rem;
@@ -394,7 +394,7 @@ h3 {
 }
 
 .hero-minimal .hero-sub {
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 
 .hero-minimal .eyebrow {
@@ -608,7 +608,7 @@ h3 {
 .service-card-body p {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: #5C5C5C;
+  color: #3D3D3D;
   margin-bottom: 20px;
 }
 
@@ -694,7 +694,7 @@ h3 {
 .testimonial-card blockquote {
   font-size: 0.95rem;
   line-height: 1.85;
-  color: #5C5C5C;
+  color: #3D3D3D;
   margin-bottom: 24px;
   font-style: italic;
 }
@@ -783,7 +783,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.78rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   letter-spacing: 0.05em;
   display: block;
   margin-top: 2px;
@@ -876,7 +876,7 @@ h3 {
 .price-table td {
   padding: 18px 0;
   font-size: 0.95rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 
 .price-table td:first-child {
@@ -899,7 +899,7 @@ h3 {
 
 .price-table .td-dur {
   font-size: 0.8rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   letter-spacing: 0.04em;
 }
 
@@ -955,7 +955,7 @@ h3 {
   font-size: 0.8rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #5C5C5C;
+  color: #3D3D3D;
   padding: 14px 32px;
   border: none;
   border-bottom: 2px solid transparent;
@@ -1058,7 +1058,7 @@ h3 {
   padding: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.8;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 
 .faq-item.open .faq-answer {
@@ -1126,7 +1126,7 @@ h3 {
 .step-text {
   font-size: 0.88rem;
   line-height: 1.7;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 
 .journey-tags {
@@ -1140,7 +1140,7 @@ h3 {
 
 .journey-tag-text {
   font-size: 0.85rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
 }
 
@@ -1289,7 +1289,7 @@ h3 {
   line-height: 1.78;
   padding-left: 20px;
   position: relative;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 
 .policy-block ul li::before {
@@ -1693,7 +1693,7 @@ h3 {
 .warning-box p {
   font-size: 0.9rem;
   line-height: 1.8;
-  color: #5C5C5C;
+  color: #3D3D3D;
   margin-bottom: 12px;
 }
 
@@ -1973,7 +1973,7 @@ h3 {
 .contact-hours-table td {
   padding: 5px 0;
   font-size: 0.88rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 
 .contact-hours-table td:last-child {
@@ -2045,7 +2045,7 @@ h3 {
 
 .contact-policy-banner p {
   font-size: 0.9rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   margin-bottom: 12px;
 }
 
@@ -2168,7 +2168,7 @@ h3 {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #5C5C5C;
+  color: #3D3D3D;
   padding: 4px 0;
 }
 
@@ -2333,7 +2333,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
   margin: 0 0 12px;
 }
@@ -2416,12 +2416,12 @@ h3 {
   gap: 8px;
   padding: 4px 0;
 }
-.hp-badge svg { color: #5C5C5C; flex-shrink: 0; }
+.hp-badge svg { color: #3D3D3D; flex-shrink: 0; }
 .hp-badge span {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.75rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   white-space: nowrap;
 }
 .hp-badge-divider {
@@ -2447,7 +2447,7 @@ h3 {
   align-items: center;
   gap: 14px;
   text-decoration: none;
-  color: #5C5C5C;
+  color: #3D3D3D;
   transition: color 0.25s ease;
 }
 .hp-concern-item:hover { color: #C9A227; }
@@ -2510,7 +2510,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 .hp-check {
   width: 18px;
@@ -2638,7 +2638,7 @@ h3 {
   font-weight: 300;
   font-style: italic;
   font-size: 0.95rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.8;
   margin: 0 0 20px;
 }
@@ -2707,7 +2707,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
   position: relative;
   max-width: 380px;
@@ -2828,7 +2828,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.92rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
 }
 .nc-cards-grid {
@@ -2884,7 +2884,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
   margin: 0;
 }
@@ -2912,7 +2912,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.88rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.5;
 }
 .nc-includes-list li::before {
@@ -2939,7 +2939,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.85rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.6;
   margin-top: 4px;
 }
@@ -2950,7 +2950,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.85rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.6;
 }
 @media (max-width: 760px) {
@@ -2999,7 +2999,7 @@ h3 {
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #5C5C5C;
+  color: #3D3D3D;
   background: #F5F0EB;
   padding: 6px 14px;
   border: 1px solid #EDE8E3;
@@ -3012,7 +3012,7 @@ h3 {
   font-weight: 300;
   font-style: italic;
   font-size: 0.88rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
   margin: 16px 0;
 }
@@ -3023,7 +3023,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.88rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
   margin: 16px 0;
 }
@@ -3038,7 +3038,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.92rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 .price-table-clean td:first-child { color: #2C2C2C; }
 .price-table-clean td:last-child { text-align: right; color: #C9A227; font-weight: 400; }
@@ -3111,7 +3111,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.85rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.5;
 }
 .pkg-includes li::before {
@@ -3137,7 +3137,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.88rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 .addon-list li span:last-child { color: #C9A227; font-weight: 400; }
 .treatment-includes-list {
@@ -3155,7 +3155,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
 }
 .treatment-includes-list li::before {
   content: '';
@@ -3191,7 +3191,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
-  color: #5C5C5C;
+  color: #3D3D3D;
   line-height: 1.7;
 }
 .wax-img-right {
@@ -3208,4 +3208,240 @@ h3 {
     max-width: 100%;
     margin: 0 0 20px;
   }
+}
+
+/* ============================================================
+   HOMEPAGE v5 — DECORATIVE ELEMENTS & ENHANCEMENTS
+   ============================================================ */
+
+/* Nav gold border + logo */
+.site-nav {
+  border-bottom: 1px solid rgba(201,162,39,0.2);
+}
+.nav-logo-img {
+  height: 65px !important;
+}
+
+/* Wave dividers */
+.hp-wave-divider {
+  line-height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.hp-wave-divider svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+.hp-wave-linen { background: #F5F0EB; }
+.hp-wave-white { background: #F5F0EB; }
+
+/* Dot texture on linen sections */
+.hp-dot-texture {
+  background-image: radial-gradient(circle, #C4939A 1px, transparent 1px) !important;
+  background-size: 24px 24px !important;
+  background-color: #F5F0EB !important;
+  position: relative;
+}
+.hp-dot-texture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(245,240,235,0.97);
+  pointer-events: none;
+  z-index: 0;
+}
+.hp-dot-texture > * { position: relative; z-index: 1; }
+
+/* About Char teaser & expand */
+.hp-about-teaser {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: #3D3D3D;
+  line-height: 1.7;
+  margin: 20px 0 0;
+}
+.hp-expand-btn {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: #8A9E8A;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 14px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.hp-expand-btn:hover { color: #6B826B; }
+.hp-expand-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease;
+}
+.hp-expand-content.hp-expand-open {
+  max-height: 300px;
+}
+.hp-expand-text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.92rem;
+  color: #3D3D3D;
+  line-height: 1.8;
+  margin: 14px 0 0;
+  border-left: 2px solid #EDE8E3;
+  padding-left: 16px;
+}
+.hp-about-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.82rem;
+  color: #8A9E8A;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.2s ease;
+}
+.hp-about-link:hover { color: #6B826B; }
+
+/* New client menu — primary card badge */
+.nc-card-primary {
+  border: 2px solid #8A9E8A;
+  position: relative;
+}
+.nc-start-badge {
+  display: inline-block;
+  background: #8A9E8A;
+  color: #FFFFFF;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  margin-bottom: 12px;
+  align-self: flex-start;
+}
+
+/* SHR Packages section */
+.shr-pkg-section { padding: 80px 0; }
+.shr-pkg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 32px;
+}
+.shr-pkg-card {
+  background: #FFFFFF;
+  border: 1px solid #EDE8E3;
+  padding: 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.shr-pkg-card-highlight { border-color: #C9A227; }
+.shr-pkg-card-sage { border-color: #8A9E8A; }
+.shr-pkg-badge-gold {
+  position: absolute;
+  top: -1px;
+  right: 20px;
+  background: #C9A227;
+  color: #FFFFFF;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 12px;
+}
+.shr-pkg-badge-sage {
+  position: absolute;
+  top: -1px;
+  right: 20px;
+  background: #8A9E8A;
+  color: #FFFFFF;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 12px;
+}
+.shr-pkg-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: #2C2C2C;
+  margin: 0;
+}
+.shr-pkg-sessions {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.82rem;
+  color: #C9A227;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+.shr-pkg-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #C9A227;
+  margin: 0;
+}
+.shr-pkg-includes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex: 1;
+}
+.shr-pkg-includes li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  color: #3D3D3D;
+  line-height: 1.5;
+}
+.shr-pkg-includes li::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 1px;
+  background: #8A9E8A;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+.shr-pkg-todo {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #9E9E9E;
+  margin: 0;
+}
+.shr-pkg-subhead {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #2C2C2C;
+  margin: 32px 0 0;
+}
+@media (max-width: 760px) {
+  .shr-pkg-grid { grid-template-columns: 1fr; }
 }
