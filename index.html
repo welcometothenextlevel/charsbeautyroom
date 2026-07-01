@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Char's Beauty Room — boutique luxury skin and beauty studio in Altona Meadows, Melbourne. Expert skin treatments, personalised to you. Real results.">
+  <meta name="description" content="Char's Beauty Room — boutique luxury skin and beauty studio in Altona Meadows, Melbourne. Expert skin treatments for pigmentation, rosacea, acne, ageing and SHR hair removal. Personalised to you.">
   <title>Char's Beauty Room | Boutique Skin & Beauty Studio | Altona Meadows Melbourne</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/webp" href="images/LOGO.webp">
@@ -52,285 +52,326 @@
     </div>
   </nav>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg" style="background-image: url('images/hero.webp');"></div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <span class="eyebrow fade-1">Altona Meadows &middot; Melbourne</span>
-      <h1 class="fade-2">Your skin deserves more<br>than a quick fix.</h1>
-      <p class="hero-sub fade-3">Expert skin treatments, personalised to you. Boutique studio. Real results.</p>
-      <div class="hero-buttons fade-4">
-        <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-primary">Book Your Appointment</a>
-        <a href="#services" id="exploreBtn" class="btn-outline">Explore Treatments</a>
+  <!-- HERO — split layout, left text / right image -->
+  <section class="hp-hero">
+    <div class="hp-hero-left">
+      <span class="hp-hero-eyebrow">Skin &middot; Connect &middot; Confidence</span>
+      <h1 class="hp-hero-h1">Feel Confident<br>In Your Skin Again</h1>
+      <p class="hp-hero-sub">Struggling with pigmentation, sun damage, redness, rosacea, acne, ageing concerns or unwanted hair?</p>
+      <p class="hp-hero-sub-italic">You don't need to know what treatment to book.</p>
+      <p class="hp-hero-sub">I'll assess your concerns and create a personalised treatment plan designed specifically for you.</p>
+      <div class="hp-hero-btns">
+        <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-hp-sage">Book Consultation</a>
+        <a href="#contact-form" class="btn-hp-outline">Send an Enquiry</a>
       </div>
-    </div>
-  </section>
-
-  <!-- CHARMAYNE'S STORY -->
-  <section class="section section-white">
-    <div class="section-inner">
-      <div class="two-col">
-        <div class="col-image reveal">
-          <img src="images/ceo.webp" alt="Charmayne, founder of Char's Beauty Room" loading="lazy">
+      <div class="hp-trust-badges">
+        <div class="hp-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          <span>20+ Years Experience</span>
         </div>
-        <div class="col-content reveal">
-          <span class="eyebrow">Meet Charmayne</span>
-          <h2>I've spent over 20 years learning what your skin actually needs.</h2>
-          <p>I'm Charmayne — the face, the hands, and the heart behind Char's Beauty Room.</p>
-          <p>I built this studio because I believe skin care should never be one-size-fits-all. Every client who walks through my door receives my complete attention — a thorough skin assessment, an honest conversation about your concerns, and a treatment plan built entirely around you.</p>
-          <p>Whether you're battling acne, dealing with pigmentation, managing sensitivity, or simply wanting your skin to feel like itself again — I'm here. Not a team of rotating therapists. Not a chain. Just me, my expertise, and 20 years of genuine passion for skin health.</p>
-          <p>This is your private retreat. No rush. No pressure. Just results you can actually see.</p>
-          <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-ghost">Book a Consultation</a>
+        <span class="hp-badge-divider" aria-hidden="true"></span>
+        <div class="hp-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span>Advanced Technology</span>
+        </div>
+        <span class="hp-badge-divider" aria-hidden="true"></span>
+        <div class="hp-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span>Personalised Care</span>
         </div>
       </div>
     </div>
+    <div class="hp-hero-right">
+      <img src="images/ceo.webp" alt="Charmayne, founder of Char's Beauty Room" loading="eager" class="hp-hero-img">
+    </div>
   </section>
 
-  <hr class="section-divider">
-
-  <!-- SERVICES GRID -->
-  <section class="section section-linen" id="services">
+  <!-- HOW CAN I HELP -->
+  <section class="section section-white hp-concerns-section">
     <div class="section-inner">
       <div class="section-header centered reveal">
-        <span class="eyebrow">Our Services</span>
-        <h2>Treatments Built Around You</h2>
+        <span class="eyebrow">Your Concerns</span>
+        <h2>How Can I Help?</h2>
       </div>
-      <div class="services-grid">
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/new-client-menu.webp" alt="New Client Menu" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>New Client Menu</h3>
-            <p>Every skin journey starts here. First-time clients only.</p>
-            <a href="new-client-menu.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/bespoke-skin-reset.webp" alt="Bespoke Skin Reset" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>Bespoke Skin Reset</h3>
-            <p>Tailored facials that adapt to exactly what your skin needs today.</p>
-            <a href="bespoke-skin-reset.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/corrective-treatments.webp" alt="Corrective Treatments" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>Corrective Treatments</h3>
-            <p>Clinical-grade solutions for pigmentation, acne, redness &amp; ageing.</p>
-            <a href="corrective-treatments.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/nano-infusion.webp" alt="Nano Infusion" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>Nano Infusion</h3>
-            <p>Next-level skin rejuvenation with Gold Salmon DNA technology.</p>
-            <a href="nano-infusion.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/shr-hair-removal.webp" alt="SHR Hair Removal" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>SHR Hair Removal</h3>
-            <p>Virtually pain-free permanent hair reduction for all skin types.</p>
-            <a href="shr-hair-removal.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/treatment-journeys.webp" alt="Treatment Journeys" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>Treatment Journeys</h3>
-            <p>A personalised skin program from consultation to lasting results.</p>
-            <a href="treatment-journeys.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/makeup.webp" alt="Beauty Rituals" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>Beauty Rituals</h3>
-            <p>Tinting, waxing and makeup for the finishing touch.</p>
-            <a href="beauty-rituals.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <div class="service-card-img">
-            <img src="images/shop.webp" alt="Shop" loading="lazy">
-          </div>
-          <div class="service-card-body">
-            <h3>Shop</h3>
-            <p>Professional skincare to extend your results at home.</p>
-            <a href="shop.html" class="link-arrow">Explore &rarr;</a>
-          </div>
-        </article>
-
+      <div class="hp-concerns-grid">
+        <a href="corrective-treatments.html" class="hp-concern-item reveal">
+          <svg class="hp-concern-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <span>Pigmentation &amp;<br>Sun Damage</span>
+        </a>
+        <a href="corrective-treatments.html" class="hp-concern-item reveal">
+          <svg class="hp-concern-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></svg>
+          <span>Redness &amp;<br>Rosacea</span>
+        </a>
+        <a href="corrective-treatments.html" class="hp-concern-item reveal">
+          <svg class="hp-concern-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <span>Acne &amp;<br>Congestion</span>
+        </a>
+        <a href="bespoke-skin-reset.html" class="hp-concern-item reveal">
+          <svg class="hp-concern-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Ageing &amp;<br>Skin Rejuvenation</span>
+        </a>
+        <a href="bespoke-skin-reset.html" class="hp-concern-item reveal">
+          <svg class="hp-concern-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12 Q6 6 12 12 Q18 6 21 12"/><path d="M3 17 Q6 11 12 17 Q18 11 21 17"/></svg>
+          <span>Dull &amp;<br>Dehydrated Skin</span>
+        </a>
+        <a href="shr-hair-removal.html" class="hp-concern-item reveal">
+          <svg class="hp-concern-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <span>SHR<br>Hair Removal</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <hr class="section-divider">
+  <!-- ABOUT CHAR -->
+  <section class="section section-linen hp-about-section">
+    <div class="section-inner">
+      <div class="hp-about-grid">
+        <div class="hp-about-image reveal">
+          <img src="images/results/studio-room.webp" alt="Char's Beauty Room treatment studio" loading="lazy" class="hp-about-img">
+        </div>
+        <div class="hp-about-content reveal">
+          <span class="eyebrow">About Char</span>
+          <h2 class="hp-about-h2">Why Clients Choose<br>Char's Beauty Room</h2>
+          <ul class="hp-checklist">
+            <li>
+              <svg class="hp-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              20+ Years Experience
+            </li>
+            <li>
+              <svg class="hp-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Personalised Treatment Plans
+            </li>
+            <li>
+              <svg class="hp-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Advanced Skin &amp; SHR Technology
+            </li>
+            <li>
+              <svg class="hp-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              One-on-One Studio Experience
+            </li>
+            <li>
+              <svg class="hp-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Honest Advice
+            </li>
+            <li>
+              <svg class="hp-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Results-Focused Approach
+            </li>
+          </ul>
+          <a href="about.html" class="btn-hp-sage" style="display:inline-block;margin-top:32px;">Learn More About Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- WHY CHAR'S -->
-  <section class="section section-linen">
+  <!-- REAL CLIENT RESULTS -->
+  <section class="section section-linen hp-results-section" style="background:#F5F0EB;">
     <div class="section-inner">
       <div class="section-header centered reveal">
-        <span class="eyebrow">Why Choose Us</span>
-        <h2>The Char's Difference</h2>
+        <span class="eyebrow">Real Client Results</span>
+        <h2>Real Client Results</h2>
+        <p>Real clients, real results — achieved right here at Char's Beauty Room in Altona Meadows.</p>
       </div>
-      <div class="pillars-grid">
-        <div class="pillar reveal">
-          <div class="pillar-number">01</div>
-          <h3>20+ Years Experience</h3>
-          <p>Nationally accredited, laser certified, and continuously trained. Your skin is always in expert hands.</p>
+
+      <!-- Row 1 — always visible -->
+      <div class="hp-results-grid" id="results-row-1">
+        <!-- Card 1: Pigmentation -->
+        <div class="hp-result-card reveal">
+          <div class="hp-result-images">
+            <div class="hp-result-img-wrap">
+              <img src="images/results/pigmentation-before.webp" alt="Pigmentation before treatment" loading="lazy">
+              <span class="hp-result-label">Before</span>
+            </div>
+            <div class="hp-result-img-wrap">
+              <img src="images/results/pigmentation-after.webp" alt="Pigmentation after treatment" loading="lazy">
+              <span class="hp-result-label">After</span>
+            </div>
+          </div>
+          <div class="hp-result-body">
+            <span class="hp-result-concern">Pigmentation &amp; Sun Damage</span>
+            <a href="corrective-treatments.html" class="hp-result-link">View Treatment &rarr;</a>
+          </div>
         </div>
-        <div class="pillar reveal">
-          <div class="pillar-number">02</div>
-          <h3>One-on-One Care</h3>
-          <p>Every session is private and entirely focused on you. No rushed appointments. No shared spaces.</p>
+
+        <!-- Card 2: Rosacea -->
+        <div class="hp-result-card reveal">
+          <div class="hp-result-images">
+            <div class="hp-result-img-wrap">
+              <img src="images/results/rosacea-before.webp" alt="Rosacea before treatment" loading="lazy">
+              <span class="hp-result-label">Before</span>
+            </div>
+            <div class="hp-result-img-wrap">
+              <img src="images/results/rosacea-after.webp" alt="Rosacea after treatment" loading="lazy">
+              <span class="hp-result-label">After</span>
+            </div>
+          </div>
+          <div class="hp-result-body">
+            <span class="hp-result-concern">Redness &amp; Rosacea</span>
+            <a href="corrective-treatments.html" class="hp-result-link">View Treatment &rarr;</a>
+          </div>
         </div>
-        <div class="pillar reveal">
-          <div class="pillar-number">03</div>
-          <h3>Results, Not Guesswork</h3>
-          <p>We assess before we treat. Every plan is built from a thorough skin analysis — never assumptions.</p>
-        </div>
-        <div class="pillar reveal">
-          <div class="pillar-number">04</div>
-          <h3>K-Beauty Philosophy</h3>
-          <p>We embrace the Korean Beauty approach — deep hydration, barrier repair, and the signature glass skin glow.</p>
+
+        <!-- Card 3: Ageing — single collage image -->
+        <div class="hp-result-card reveal">
+          <div class="hp-result-images hp-result-single">
+            <img src="images/results/ageing-rejuvenation-before-after.webp" alt="Ageing and rejuvenation before and after" loading="lazy">
+          </div>
+          <div class="hp-result-body">
+            <span class="hp-result-concern">Ageing &amp; Skin Rejuvenation</span>
+            <a href="bespoke-skin-reset.html" class="hp-result-link">View Treatment &rarr;</a>
+          </div>
         </div>
       </div>
+
+      <!-- Toggle button -->
+      <div class="hp-results-toggle-wrap">
+        <button class="btn-hp-outline-dark" id="results-toggle-btn" aria-expanded="false">View More Results</button>
+      </div>
+
+      <!-- Row 2 — hidden, revealed on toggle -->
+      <div class="hp-results-grid hp-results-hidden" id="results-row-2" aria-hidden="true">
+        <!-- Card 4: Acne -->
+        <div class="hp-result-card reveal">
+          <div class="hp-result-images hp-result-single">
+            <img src="images/results/acne-chin-before-after.webp" alt="Chin acne before and after" loading="lazy">
+          </div>
+          <div class="hp-result-body">
+            <span class="hp-result-concern">Acne &amp; Congestion</span>
+            <a href="corrective-treatments.html" class="hp-result-link">View Treatment &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 5: SHR facial -->
+        <div class="hp-result-card reveal">
+          <div class="hp-result-images hp-result-single">
+            <img src="images/results/shr-facial-hair-collage.webp" alt="SHR facial hair removal results" loading="lazy">
+          </div>
+          <div class="hp-result-body">
+            <span class="hp-result-concern">SHR — Facial Hair Removal</span>
+            <a href="shr-hair-removal.html" class="hp-result-link">View Treatment &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 6: SHR back -->
+        <div class="hp-result-card reveal">
+          <div class="hp-result-images">
+            <div class="hp-result-img-wrap">
+              <img src="images/results/shr-back-before.webp" alt="Back hair before SHR" loading="lazy">
+              <span class="hp-result-label">Before</span>
+            </div>
+            <div class="hp-result-img-wrap">
+              <img src="images/results/shr-back-after.webp" alt="Back hair after SHR" loading="lazy">
+              <span class="hp-result-label">After</span>
+            </div>
+          </div>
+          <div class="hp-result-body">
+            <span class="hp-result-concern">SHR — Back Hair Removal</span>
+            <a href="shr-hair-removal.html" class="hp-result-link">View Treatment &rarr;</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
-
-  <hr class="section-divider">
 
   <!-- TESTIMONIALS -->
-  <section class="section section-white">
+  <section class="section section-white hp-testimonials-section">
     <div class="section-inner">
       <div class="section-header centered reveal">
         <span class="eyebrow">Client Stories</span>
-        <h2>Real Results, Real People</h2>
+        <h2>What My Clients Say</h2>
       </div>
-      <div class="testimonials-grid">
-
-        <div class="testimonial-card reveal">
-          <span class="testimonial-quote-mark">&ldquo;</span>
-          <blockquote>Charmayne completely transformed my skin. After years of struggling with pigmentation, I finally have the glow I thought was impossible to achieve.</blockquote>
-          <cite>Sarah M., Altona Meadows</cite>
+      <div class="hp-testimonials-grid">
+        <div class="hp-testi-card reveal">
+          <div class="hp-testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="hp-testi-quote">"Char is so knowledgeable and caring. My pigmentation has improved so much and my skin has never looked better!"</p>
+          <hr class="hp-testi-divider">
+          <span class="hp-testi-name">Emma R.</span>
         </div>
-
-        <div class="testimonial-card reveal">
-          <span class="testimonial-quote-mark">&ldquo;</span>
-          <blockquote>The most relaxing and results-driven facial I have ever experienced. I leave every single time looking years younger and genuinely glowing.</blockquote>
-          <cite>Jessica T., Williamstown</cite>
+        <div class="hp-testi-card reveal">
+          <div class="hp-testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="hp-testi-quote">"I was nervous about starting treatments, but Char made me feel so comfortable. The results speak for themselves!"</p>
+          <hr class="hp-testi-divider">
+          <span class="hp-testi-name">Jessica T.</span>
         </div>
-
-        <div class="testimonial-card reveal">
-          <span class="testimonial-quote-mark">&ldquo;</span>
-          <blockquote>As a first-time client I felt completely at ease from the moment I arrived. The consultation was thorough, the treatment was incredible, and my skin has never looked better.</blockquote>
-          <cite>Emma R., Point Cook</cite>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <hr class="section-divider">
-
-  <!-- ABOUT ME -->
-  <section class="section section-linen">
-    <div class="section-inner">
-      <div class="two-col two-col-reverse">
-        <div class="col-content reveal">
-          <span class="eyebrow">About the Founder</span>
-          <h2>20 Years of Dedicated Expertise</h2>
-          <p>With over 20 years of professional experience, I'm a dedicated skin and beauty therapist known for my meticulous attention to detail and personalised approach. I hold a Diploma in Beauty Therapy, a nationally accredited Laser Safety &amp; Clinical Application certificate, and multiple advanced qualifications including Advanced Skin Diagnosis and SHR Hair Removal expertise.</p>
-          <p>I stay current with the latest techniques, technologies and skincare innovations through ongoing education and advanced training. Guided by my values of quality, integrity and passion, I'm committed to providing results-focused treatments that empower my clients to feel beautiful — inside and out.</p>
-          <div class="credentials-row">
-            <span>Diploma in Beauty Therapy</span>
-            <span class="cred-divider" aria-hidden="true"></span>
-            <span>Laser Safety Certified</span>
-            <span class="cred-divider" aria-hidden="true"></span>
-            <span>20+ Years Experience</span>
-          </div>
-        </div>
-        <div class="col-image reveal">
-          <img src="images/ceo.webp" alt="Charmayne, founder of Char's Beauty Room" loading="lazy">
+        <div class="hp-testi-card reveal">
+          <div class="hp-testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="hp-testi-quote">"The best decision I've made for my skin. Professional, honest and truly passionate about what she does."</p>
+          <hr class="hp-testi-divider">
+          <span class="hp-testi-name">Sarah M.</span>
         </div>
       </div>
     </div>
   </section>
-
-  <hr class="section-divider">
 
   <!-- CONTACT FORM -->
-  <section class="section section-white">
-    <div class="section-inner" style="max-width:860px;">
-      <div class="section-header centered reveal">
-        <span class="eyebrow">Get In Touch</span>
-        <h2>Have a Question?</h2>
-        <p style="margin-top:16px;font-size:0.97rem;color:#5C5C5C;">Send us a message and we'll get back to you as soon as possible.</p>
+  <section class="hp-contact-section" id="contact-form">
+    <div class="hp-contact-grid">
+      <!-- Left column -->
+      <div class="hp-contact-left">
+        <svg class="hp-contact-botanical" viewBox="0 0 120 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M60 280 C60 280 30 240 40 180 C50 120 20 80 20 40" stroke="#8A9E8A" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M40 180 C40 180 70 170 80 140" stroke="#8A9E8A" stroke-width="1" stroke-linecap="round"/>
+          <path d="M50 220 C50 220 20 210 10 180" stroke="#8A9E8A" stroke-width="1" stroke-linecap="round"/>
+          <path d="M55 150 C55 150 85 145 90 110" stroke="#8A9E8A" stroke-width="1" stroke-linecap="round"/>
+          <path d="M45 110 C45 110 15 100 10 65" stroke="#8A9E8A" stroke-width="1" stroke-linecap="round"/>
+          <ellipse cx="83" cy="137" rx="12" ry="7" transform="rotate(-30 83 137)" stroke="#8A9E8A" stroke-width="1"/>
+          <ellipse cx="13" cy="177" rx="10" ry="6" transform="rotate(20 13 177)" stroke="#8A9E8A" stroke-width="1"/>
+          <ellipse cx="92" cy="107" rx="10" ry="6" transform="rotate(-40 92 107)" stroke="#8A9E8A" stroke-width="1"/>
+          <ellipse cx="8" cy="62" rx="9" ry="5" transform="rotate(15 8 62)" stroke="#8A9E8A" stroke-width="1"/>
+        </svg>
+        <span class="eyebrow hp-contact-eyebrow">Not Sure Where to Start?</span>
+        <h2 class="hp-contact-h2">Let's create your<br>personalised plan</h2>
+        <p class="hp-contact-body">Fill in your details below and I'll be in touch to help you book your consultation and start your skin journey.</p>
       </div>
-      <!-- TODO: Replace YOUR_FORM_ID with actual Formspree form ID -->
-      <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="cf-name">Name <span class="form-required">*</span></label>
-            <input type="text" id="cf-name" name="name" required placeholder="Your full name">
+      <!-- Right column: form -->
+      <div class="hp-contact-right">
+        <!-- TODO: Replace YOUR_FORM_ID with actual Formspree form ID -->
+        <form class="hp-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="hidden" name="_subject" value="New enquiry — Char's Beauty Room">
+          <div class="hp-form-row">
+            <div class="hp-form-group">
+              <label for="hf-name">Your Name <span class="form-required">*</span></label>
+              <input type="text" id="hf-name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="hp-form-group">
+              <label for="hf-phone">Phone Number <span class="form-required">*</span></label>
+              <input type="tel" id="hf-phone" name="phone" required placeholder="04xx xxx xxx">
+            </div>
           </div>
-          <div class="form-group">
-            <label for="cf-email">Email <span class="form-required">*</span></label>
-            <input type="email" id="cf-email" name="email" required placeholder="your@email.com">
+          <div class="hp-form-group">
+            <label for="hf-email">Email Address <span class="form-required">*</span></label>
+            <input type="email" id="hf-email" name="email" required placeholder="your@email.com">
           </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="cf-phone">Phone <span class="form-optional">(optional)</span></label>
-            <input type="tel" id="cf-phone" name="phone" placeholder="04xx xxx xxx">
+          <div class="hp-form-group">
+            <label for="hf-concern">What is your main concern? <span class="form-required">*</span></label>
+            <select id="hf-concern" name="concern" required>
+              <option value="" disabled selected>Select your concern...</option>
+              <option value="Pigmentation &amp; Sun Damage">Pigmentation &amp; Sun Damage</option>
+              <option value="Acne &amp; Congestion">Acne &amp; Congestion</option>
+              <option value="Redness &amp; Rosacea">Redness &amp; Rosacea</option>
+              <option value="Ageing &amp; Fine Lines">Ageing &amp; Fine Lines</option>
+              <option value="Dull &amp; Dehydrated Skin">Dull &amp; Dehydrated Skin</option>
+              <option value="SHR Hair Removal">SHR Hair Removal</option>
+              <option value="Not Sure — Book a Consultation">Not Sure — Book a Consultation</option>
+            </select>
           </div>
-          <div class="form-group form-group-empty"></div>
-        </div>
-        <div class="form-group form-group-full">
-          <label for="cf-message">Message <span class="form-required">*</span></label>
-          <textarea id="cf-message" name="message" required rows="5" placeholder="Tell us what you'd like to know…"></textarea>
-        </div>
-        <div class="form-submit">
-          <button type="submit" class="btn-gold">Send Message</button>
-        </div>
-      </form>
+          <div class="hp-form-group">
+            <label for="hf-message">Message</label>
+            <textarea id="hf-message" name="message" rows="4" placeholder="Tell me a little more about your skin goals..."></textarea>
+          </div>
+          <button type="submit" class="btn-hp-sage btn-hp-full">Send Enquiry</button>
+        </form>
+      </div>
     </div>
   </section>
 
-  <hr class="section-divider">
-
-  <!-- BOOKING CTA BANNER -->
-  <section class="cta-banner">
-    <div class="section-inner">
-      <h2 class="reveal">Ready to begin your skin journey?</h2>
-      <p class="reveal">Book online in seconds. Your first consultation includes a full skin assessment.</p>
-      <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-dark reveal">Book Your Appointment</a>
+  <!-- FINAL CTA BANNER -->
+  <section class="hp-cta-dark">
+    <div class="section-inner" style="text-align:center;">
+      <h2 class="hp-cta-h2 reveal"><em>Ready to feel confident in your skin again?</em></h2>
+      <p class="hp-cta-sub reveal">Book your consultation today. Proudly based in Melbourne.</p>
+      <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-hp-sage reveal">Book Consultation</a>
     </div>
   </section>
 
@@ -363,7 +404,7 @@
           <a href="beauty-rituals.html">Beauty Rituals</a>
           <a href="shop.html">Shop</a>
           <a href="contact.html">Contact</a>
-      <a href="salon-policy.html">Salon Policy</a>
+          <a href="salon-policy.html">Salon Policy</a>
         </nav>
       </div>
       <div class="footer-col">
@@ -389,7 +430,6 @@
       <p>&copy; 2025 Char's Beauty Room. All Rights Reserved.</p>
     </div>
   </footer>
-
 
   <!-- WHATSAPP FLOATING WIDGET -->
   <div class="wa-widget">

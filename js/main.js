@@ -121,4 +121,49 @@
     });
   }
 
+  /* ----------------------------------------------------------
+     SMOOTH SCROLL — anchor links starting with #
+  ---------------------------------------------------------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      var targetId = anchor.getAttribute('href').slice(1);
+      if (!targetId) return;
+      var targetEl = document.getElementById(targetId);
+      if (targetEl) {
+        e.preventDefault();
+        targetEl.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  /* ----------------------------------------------------------
+     VIEW MORE RESULTS TOGGLE
+  ---------------------------------------------------------- */
+  var toggleBtn = document.getElementById('results-toggle-btn');
+  var row2 = document.getElementById('results-row-2');
+
+  if (toggleBtn && row2) {
+    toggleBtn.addEventListener('click', function () {
+      var isOpen = row2.classList.toggle('hp-results-open');
+      row2.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+      toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      toggleBtn.textContent = isOpen ? 'Show Less' : 'View More Results';
+
+      // Observe new reveal elements in row 2
+      if (isOpen && 'IntersectionObserver' in window) {
+        row2.querySelectorAll('.reveal:not(.visible)').forEach(function (el) {
+          var obs = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                obs.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.12 });
+          obs.observe(el);
+        });
+      }
+    });
+  }
+
 })();
