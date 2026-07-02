@@ -80,7 +80,7 @@ h3 {
 
 .section-dark h2,
 .section-dark h3 {
-  color: #FFFFFF;
+  color: #2C2C2C;
 }
 
 /* ============================================================
@@ -412,15 +412,15 @@ h3 {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.42);
+  background: rgba(30,30,20,0.28);
 }
 
 .hero-overlay-dark {
-  background: rgba(0,0,0,0.45);
+  background: rgba(30,30,20,0.30);
 }
 
 .hero-overlay-light {
-  background: rgba(0,0,0,0.38);
+  background: rgba(30,30,20,0.22);
 }
 
 .hero-content {
@@ -478,8 +478,8 @@ h3 {
 }
 
 .section-dark {
-  background: #1E1E1E;
-  color: #FFFFFF;
+  background: #A7C3B1;
+  color: #2C2C2C;
 }
 
 .section-white {
@@ -713,7 +713,7 @@ h3 {
    CTA BANNER
    ============================================================ */
 .cta-banner {
-  background: #1E1E1E;
+  background: #A7C3B1;
   padding: 100px 40px;
   text-align: center;
 }
@@ -721,13 +721,13 @@ h3 {
 .cta-banner h2 {
   font-style: italic;
   font-weight: 300;
-  color: #FFFFFF;
+  color: #2C2C2C;
   margin-bottom: 20px;
 }
 
 .cta-banner p {
   font-size: 0.95rem;
-  color: #E8B4B8;
+  color: #3D3D3D;
   margin-bottom: 40px;
   letter-spacing: 0.03em;
 }
@@ -2323,7 +2323,7 @@ h3 {
 .hp-hero-h1 {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 600;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   color: #2C2C2C;
   line-height: 1.1;
@@ -2470,7 +2470,7 @@ h3 {
 }
 
 /* ── About ── */
-.hp-about-section { padding: 100px 0; }
+.hp-about-section { padding: 100px 0 40px; }
 .hp-about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2520,7 +2520,7 @@ h3 {
 }
 
 /* ── Results ── */
-.hp-results-section { padding: 100px 0; }
+.hp-results-section { padding: 48px 0 100px; }
 .hp-results-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2766,21 +2766,21 @@ h3 {
 
 /* ── Dark CTA ── */
 .hp-cta-dark {
-  background: #1E1E1E;
+  background: #A7C3B1;
   padding: 100px 0;
 }
 .hp-cta-h2 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   font-size: clamp(1.8rem, 3vw, 2.8rem);
-  color: #FFFFFF;
+  color: #2C2C2C;
   margin: 0 0 16px;
 }
 .hp-cta-sub {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  color: #E8B4B8;
+  color: #3D3D3D;
   margin: 0 0 36px;
 }
 
@@ -3597,7 +3597,7 @@ h3 {
 
 /* --- "Not Sure" dark banner --- */
 .hp-not-sure-banner {
-  background: #2C2C2C;
+  background: #BFD6C8;
   padding: 72px 20px;
   text-align: center;
 }
@@ -3607,14 +3607,14 @@ h3 {
   font-weight: 400;
   font-style: italic;
   font-size: 2.2rem;
-  color: #FFFFFF;
+  color: #2C2C2C;
   margin: 0 0 16px;
 }
 .hp-not-sure-banner p {
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   font-size: 0.95rem;
-  color: #E8B4B8;
+  color: #3D3D3D;
   margin: 0 0 32px;
 }
 .hp-not-sure-banner .btn-outlined-white {
@@ -3624,15 +3624,15 @@ h3 {
   font-size: 0.78rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #2C2C2C;
+  border: 1px solid #2C2C2C;
   padding: 14px 32px;
   text-decoration: none;
   transition: background 0.25s, color 0.25s;
 }
 .hp-not-sure-banner .btn-outlined-white:hover {
-  background: #FFFFFF;
-  color: #2C2C2C;
+  background: #2C2C2C;
+  color: #FFFFFF;
 }
 
 /* --- Why Choose Us section --- */
@@ -3869,4 +3869,34 @@ h3 {
   font-style: italic;
   font-size: 0.82rem;
   color: #9E9E9E;
+}
+
+/* --- CTA banner button override (sage bg → dark button for contrast) --- */
+.cta-banner .btn-hp-sage,
+.cta-banner .btn-dark,
+.hp-cta-dark .btn-hp-sage {
+  background: #2C2C2C;
+  color: #FFFFFF;
+}
+.cta-banner .btn-hp-sage:hover,
+.cta-banner .btn-dark:hover,
+.hp-cta-dark .btn-hp-sage:hover {
+  background: #3D3D3D;
+  color: #FFFFFF;
+}
+
+/* --- Popup benefits list --- */
+.hp-popup-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  text-align: center;
+}
+.hp-popup-benefits li {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.88rem;
+  color: #3D3D3D;
+  padding: 6px 0;
+  letter-spacing: 0.03em;
 }
