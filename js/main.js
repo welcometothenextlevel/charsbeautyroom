@@ -183,3 +183,27 @@
     });
   }
 })();
+
+// --- Popup modal (homepage only, sessionStorage, 3s delay) ---
+(function () {
+  if (!document.querySelector('.hp-popup-overlay')) return;
+  if (sessionStorage.getItem('hp-popup-shown')) return;
+  setTimeout(function () {
+    var overlay = document.querySelector('.hp-popup-overlay');
+    if (overlay) {
+      overlay.classList.add('active');
+      sessionStorage.setItem('hp-popup-shown', '1');
+    }
+  }, 3000);
+  function closePopup() {
+    var overlay = document.querySelector('.hp-popup-overlay');
+    if (overlay) overlay.classList.remove('active');
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.classList.contains('hp-popup-overlay')) closePopup();
+    if (e.target.classList.contains('hp-popup-close')) closePopup();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePopup();
+  });
+})();

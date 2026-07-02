@@ -14,10 +14,11 @@
   <!-- NAVIGATION -->
   <nav class="site-nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><img src="images/LOGO.webp" alt="Char's Beauty Room" class="nav-logo-img"></a>
+      <a href="index.html" class="nav-logo"><img src="images/LOGO.webp" alt="Char's Beauty Room" class="nav-logo-img"><span class="nav-logo-accent" aria-hidden="true"></span></a>
       <ul class="nav-links" role="list">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
         <li><a href="new-client-menu.html">New Client</a></li>
         <li><a href="bespoke-skin-reset.html">Bespoke Reset</a></li>
         <li><a href="corrective-treatments.html">Corrective</a></li>
@@ -38,6 +39,7 @@
     <div class="nav-mobile" id="mobileNav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
       <a href="new-client-menu.html">New Client</a>
       <a href="bespoke-skin-reset.html">Bespoke Reset</a>
       <a href="corrective-treatments.html">Corrective</a>
@@ -80,9 +82,8 @@
         <a href="images/pigmentation-ssr-before-after.webp" target="_blank" rel="noopener">
           <img src="images/pigmentation-ssr-before-after.webp" alt="SSR pigmentation results" loading="lazy">
         </a>
-        <!-- TODO: Replace placeholder with images/corrective-skin-new.webp when provided -->
-        <a href="images/corrective-skin-new.webp" target="_blank" rel="noopener" style="background:#EDE8E3;display:flex;align-items:center;justify-content:center;min-height:220px;">
-          <img src="images/corrective-skin-new.webp" alt="Corrective skin results" loading="lazy" onerror="this.style.display='none';this.parentNode.style.background='#EDE8E3';">
+        <a href="images/ageing-rejuvenation-before-after.webp" target="_blank" rel="noopener">
+          <img src="images/ageing-rejuvenation-before-after.webp" alt="Ageing and rejuvenation before and after" loading="lazy">
         </a>
       </div>
       <p class="gallery-caption">Real results from real clients at Char's Beauty Room.</p>
@@ -144,6 +145,7 @@
 
   <hr class="section-divider">
 
+  <!-- TODO: Update FAQ from current WordPress site -->
   <!-- SECTION 2: BIO SPICULES -->
   <section class="section section-linen">
     <div class="section-inner">
@@ -192,6 +194,7 @@
 
   <hr class="section-divider">
 
+  <!-- TODO: Update FAQ from current WordPress site -->
   <!-- SECTION 3: PURE PEEL -->
   <section class="section section-white">
     <div class="section-inner">
@@ -222,6 +225,7 @@
 
   <hr class="section-divider">
 
+  <!-- TODO: Update FAQ from current WordPress site -->
   <!-- SECTION 4: SSR -->
   <section class="section section-linen">
     <div class="section-inner">
@@ -354,11 +358,12 @@
   <hr class="section-divider">
 
   <!-- CTA BANNER -->
-  <section class="cta-banner">
+    <section class="cta-banner" style="text-align:center;">
     <div class="section-inner">
-      <h2 class="reveal">Stubborn skin concerns deserve expert solutions.</h2>
-      <p class="reveal">Book your consultation and begin your corrective journey today.</p>
-      <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-dark reveal">Book Now</a>
+      <span class="eyebrow reveal">Ready to target your concerns?</span>
+      <h2 class="reveal"><em>Ready to target your skin concerns?</em></h2>
+      <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="btn-hp-sage reveal">Book Your Corrective Treatment</a>
+      <a href="new-client-menu.html" class="cta-new-client-note">New to Char's? Start with our New Client Menu →</a>
     </div>
   </section>
 
@@ -383,6 +388,7 @@
         <nav class="footer-links">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
+          <a href="gallery.html">Gallery</a>
           <a href="new-client-menu.html">New Client Menu</a>
           <a href="bespoke-skin-reset.html">Bespoke Skin Reset</a>
           <a href="corrective-treatments.html">Corrective Treatments</a>
@@ -415,7 +421,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 Char's Beauty Room. All Rights Reserved.</p>
+      <p>&copy; 2026 Char's Beauty Room. All Rights Reserved.</p>
     </div>
   </footer>
 
@@ -429,6 +435,9 @@
       </svg>
     </a>
   </div>
+
+  <!-- STICKY MOBILE BOOK NOW -->
+  <a href="https://charsbeautyroom.square.site/s/appointments" target="_blank" rel="noopener" class="sticky-book-btn" aria-label="Book Now">Book Now</a>
 
   <script src="js/main.js"></script>
 </body>
